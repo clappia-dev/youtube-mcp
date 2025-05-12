@@ -1,0 +1,15 @@
+[project]
+name = "youtube-mcp"
+version = "1.0.0"
+description = "MCP server that allows Claude Desktop to download videos from public URLs and upload them to YouTube."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "google-api-python-client>=2.169.0",
+    "google-auth>=2.40.1",
+    "google-auth-oauthlib>=1.2.2",
+    "httpx>=0.28.1",
+    "mcp[cli]>=1.8.0",
+    "modelcontextprotocol>=0.1.0",
+    "requests>=2.32.3",
+]
